@@ -1,4 +1,5 @@
 import { Scan } from 'lucide-react';
+import { BANNER_CONFIG } from '../config';
 
 const HeroBanner = ({ onActionClick }) => {
     return (
@@ -19,7 +20,7 @@ const HeroBanner = ({ onActionClick }) => {
                     </button>
                 </div>
                 <img
-                    src="https://lh3.googleusercontent.com/u/0/d/1DC_RgKcMVyrABmXl-rfRI9wtIEV4Geg-=s1000"
+                    src={BANNER_CONFIG.HERO_IMAGE}
                     className="absolute -right-4 -bottom-4 w-48 h-48 object-contain rotate-12 sm:w-80 sm:h-80 sm:right-10"
                     alt="Hero product"
                     referrerPolicy="no-referrer"

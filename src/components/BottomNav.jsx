@@ -25,9 +25,10 @@ const BottomNav = ({ isHidden, onHomeClick, onBrandClick, onSearchClick, onRecen
                 </button>
                 <div
                     onClick={onBrandClick}
-                    className="bg-cat-orange p-4 rounded-3xl shadow-2xl shadow-cat-orange/40 -mt-20 text-white cursor-pointer hover:rotate-12 hover:scale-110 active:scale-90 transition-all font-black"
+                    className=""
                 >
-                    <ShoppingBag size={32} />
+                    {/* <ShoppingBag size={32} /> */}
+                    <img src="/inventiva_logo_sm.svg" alt="Inventiva" className="w-24 h-24 sm:w-24 sm:h-24 rounded-full shadow-2xl shadow-cat-orange/40 -mt-20 text-white cursor-pointer hover:rotate-12 hover:scale-110 active:scale-90 transition-all font-black" />
                 </div>
                 <button
                     onClick={onRecentClick}

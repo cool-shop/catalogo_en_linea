@@ -7,11 +7,11 @@ export default {
     theme: {
         extend: {
             colors: {
-                'cat-brown': '#562c2c',
-                'cat-orange': '#f2542d',
-                'cat-beige': '#f5dfbb',
-                'cat-teal-light': '#0e9594',
-                'cat-teal-dark': '#127475',
+                'cat-brown': '#483434',
+                'cat-orange': '#6b4f4f',
+                'cat-beige': '#fff3e4',
+                'cat-teal-light': '#1cd6d9',
+                'cat-teal-dark': '#0f7173',
             },
             fontFamily: {
                 outfit: ['Outfit', 'sans-serif'],

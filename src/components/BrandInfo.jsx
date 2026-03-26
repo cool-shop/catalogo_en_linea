@@ -30,8 +30,8 @@ const BrandInfo = ({ onClose }) => {
                 {/* Hero Section */}
                 <div className="relative rounded-[3rem] overflow-hidden bg-cat-orange/5 p-12 mb-16 text-center">
                     <div className="relative z-10">
-                        <div className="w-24 h-24 bg-cat-orange rounded-[2rem] flex items-center justify-center text-white shadow-2xl shadow-cat-orange/30 mx-auto mb-8 transform -rotate-6">
-                            <ShoppingBag size={48} />
+                        <div className="">
+                            <img src="/inventiva_logo.svg" alt="Inventiva" className="sm:w-48 sm:h-48 w-48 h-48 rounded-[8rem] flex items-center justify-center text-white shadow-2xl shadow-cat-brown/50 mx-auto mb-8 transform" />
                         </div>
                         <h1 className="text-4xl sm:text-6xl font-black text-cat-brown mb-6 tracking-tighter uppercase">Pasión por lo <br />Personalizado</h1>
                         <p className="text-lg text-slate-600 max-w-2xl mx-auto leading-relaxed font-medium">
