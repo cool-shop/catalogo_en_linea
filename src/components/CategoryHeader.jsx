@@ -25,7 +25,7 @@ const CategoryHeader = ({ user, onBrandClick }) => {
                     onClick={onBrandClick}
                     className="">
                     {/* <ShoppingBag size={28} className="sm:size-[32px]" /> */}
-                    <img src={APP_CONFIG.LOGO_SM} alt="Inventiva" className="w-16 h-16 sm:w-16 sm:h-16 rounded-full shadow-xl shadow-cat-orange/20 group-hover:rotate-12 group-hover:scale-110 transition-all duration-500" />
+                    <img src={APP_CONFIG.LOGO_SM} alt="Inventiva" className="w-16 h-16 sm:w-24 sm:h-24 rounded-full shadow-xl shadow-cat-orange/20 group-hover:rotate-12 group-hover:scale-110 transition-all duration-500" />
                 </div>
             </motion.div>
         </div>
